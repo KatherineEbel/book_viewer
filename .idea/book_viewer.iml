@@ -17,7 +17,9 @@
     <orderEntry type="library" scope="PROVIDED" name="method_source (v1.0.0, asdf: 3.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.15.0, asdf: 3.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mustermann (v1.1.1, asdf: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.5.8, asdf: 3.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pry (v0.14.1, asdf: 3.1.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="puma (v5.6.1, asdf: 3.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v2.2.3, asdf: 3.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-protection (v2.1.0, asdf: 3.1.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sinatra (v2.1.0, asdf: 3.1.0) [gem]" level="application" />
