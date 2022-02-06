@@ -1,0 +1,17 @@
+<h2 class="content-subhead">Search</h2>
+
+<form action="/search" method="get">
+  <input name="query" value="<%= params[:query] %>">
+  <button type="submit">Search</button>
+</form>
+
+<% if params[:query] %>
+  <% if @results.empty? %>
+    <p>Sorry, no matches were found.</p>
+  <% else %>
+    <h1>Results for <%= params[:query] %></h1>
+    <ul>
+      <%= highlight(@results, params[:query]) %>
+    </ul>
+  <% end %>
+<% end %>
